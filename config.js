@@ -68,12 +68,12 @@ module.exports = {
   packname: process.env.PackName || "𝘿𝙐𝙎𝙏𝙐 𝞒𝞓𝙅 MD",
   socialLink: process.env.Web || "https://github.com/PikaBotz",
   footer: process.env.Footer || "𝘿𝙐𝙎𝙏𝙐 𝞒𝞓𝙅 Bot",
-  prefa: process.env.Prefix || ['-'],
+  prefa: process.env.Prefix || [,]
   themeemoji: process.env.ThemeEmoji || "🎐",
   ownername: process.env.Owner_Name || "𝘿𝙐𝙎𝙏𝙐 𝞒𝞓𝙅",
-  ownernumber: process.env.Owner_Number || "916900904828",
+  ownernumber: process.env.Owner_Number || "918967698712",
   instagramId: process.env.Insta || "8.08_only_mine",
-  warns: process.env.Warns_Limits || 3,
+  warns: process.env.Warns_Limits || 3
   mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
   welcome: process.env.Welcome_Msg || '*@$user* joined this group today as $membersth member.\n\n_$prefix welcome off to disable this message._',
   left: process.env.Left_Msg || 'Ex-member *@$user* is no longer available in this group chat.\n\n_$prefix goodbye off to disable this message._',
@@ -110,10 +110,10 @@ global.author = process.env.Author || "𝘿𝙐𝙎𝙏𝙐 𝞒𝞓𝙅"
 global.packname = process.env.PackName || "𝘿𝙐𝙎𝙏𝙐 𝞒𝞓𝙅 MD" 
 global.myweb = process.env.Web || "https://github.com/PikaBotz" 
 global.footer = process.env.Footer || "𝘿𝙐𝙎𝙏𝙐 𝞒𝞓𝙅 Bot" 
-global.prefa = process.env.Prefix || ['-'] 
+global.prefa = process.env.Prefix || [,] 
 global.themeemoji = process.env.ThemeEmoji || "🎐" 
 global.ownername = process.env.Owner_Name || "𝘿𝙐𝙎𝙏𝙐 𝞒𝞓𝙅" 
-global.ownernumber = process.env.Owner_Number || "916900904828" 
+global.ownernumber = process.env.Owner_Number || "918967698712" 
 global.adress = process.env.Continent || "Asia, India, Assam" 
 global.timezone = process.env.TimeZone || "Asia/Kolkata" 
 global.instagramId = process.env.Insta || "8.08_only_mine" 
